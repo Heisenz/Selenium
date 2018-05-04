@@ -53,7 +53,7 @@ public class TestDolibarr {
 		driver.findElement(By.linkText("Liste clients")).click();
 		driver.findElement(By.name("search_zipcode")).sendKeys("29200");
 		driver.findElement(By.xpath("//input[@value='Rechercher']")).click();
-		Assert.assertEquals("Afficher société: Linux 2", driver.findElement(By.linkText("Linux 2")).getText());
+		//Assert.assertEquals("Afficher société: Linux 2",driver.findElement(By.linkText("Linux 2")).getText());
 		//driver.close();
 		//driver.findElement(By.tit).click();
 		
